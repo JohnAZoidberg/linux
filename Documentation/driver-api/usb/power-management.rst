@@ -61,6 +61,8 @@ kernel had been built with ``CONFIG_USB_SUSPEND`` enabled (which depended on
 support for USB was present whenever the kernel was built with
 ``CONFIG_PM_RUNTIME`` enabled.  The ``CONFIG_USB_SUSPEND`` option had been
 eliminated.]
+Starting with the 4.16 kernel release ``CONFIG_PM_RUNTIME`` was merged into
+``CONFIG_PM`` since they were always enabled together.
 
 
 What is Remote Wakeup?
