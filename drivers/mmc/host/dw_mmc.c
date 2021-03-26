@@ -2,6 +2,7 @@
 /*
  * Synopsys DesignWare Multimedia Card Interface driver
  *  (Based on NXP driver for lpc 31xx)
+ *  This is used on BeagleV
  *
  * Copyright (C) 2009 NXP Semiconductors
  * Copyright (C) 2009, 2010 Imagination Technologies Ltd.

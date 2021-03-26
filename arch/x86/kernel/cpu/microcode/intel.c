@@ -605,6 +605,7 @@ static int apply_microcode_early(struct ucode_cpu_info *uci, bool early)
 	native_wbinvd();
 
 	/* write microcode via MSR 0x79 */
+  // Interesting: This is how the microcode is updated
 	native_wrmsrl(MSR_IA32_UCODE_WRITE, (unsigned long)mc->bits);
 
 	rev = intel_get_microcode_revision();

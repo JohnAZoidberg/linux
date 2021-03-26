@@ -53,6 +53,7 @@ struct extended_sigtable {
 
 #define exttable_size(et) ((et)->count * EXT_SIGNATURE_SIZE + EXT_HEADER_SIZE)
 
+// Interesting: Get microcode version
 static inline u32 intel_get_microcode_revision(void)
 {
 	u32 rev, dummy;

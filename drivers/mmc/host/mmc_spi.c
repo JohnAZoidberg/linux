@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
  * Access SD/MMC cards through SPI master controllers
+ * This is used on SiFive Unleashed
  *
  * (C) Copyright 2005, Intec Automation,
  *		Mike Lavender (mike@steroidmicros)
